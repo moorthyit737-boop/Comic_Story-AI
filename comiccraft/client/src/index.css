@@ -1,0 +1,3 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-wash font-body text-ink; }
+.btn { @apply border-4 border-ink bg-sun px-5 py-2 font-display text-xl tracking-wide shadow-comic transition active:translate-x-1 active:translate-y-1 active:shadow-none disabled:opacity-50; }
